@@ -1,5 +1,5 @@
 # Ex.08 Design of a Standard Calculator
-## Date:20.12.2023
+## Date:22.12.2023
 
 ## AIM:
 To design a web application for a standard calculator with minimum five operations.
@@ -42,9 +42,9 @@ calc.html
             margin-left: 550px;
             margin-right: 550px;
             padding: 30px;
-            background-color:rgb(122, 48, 131);
-            color: rgb(214, 73, 73);
-            border:5px solid rgb(95, 98, 87)
+            background-color:rgb(155, 187, 150);
+            color: rgb(168, 104, 104);
+            border:5px solid rgb(67, 72, 82)
         }
 
         .button input[type="button"] {
@@ -59,7 +59,7 @@ calc.html
 
 <body style="background-color: black;">
         <h1 align="center" style="color: aliceblue;">SARANYA CALCULATOR</h1>
-        <h1 align="center" style="color: rgb(139, 108, 85);">REGISTER NUMBER:212223040188</h1>
+        <h1 align="center" style="color: blanchedalmond">REGISTER NUMBER:212223040188</h1> </h1>
         <div class="button">
             <center>
             
@@ -74,7 +74,7 @@ calc.html
             <input type="button" onkeydown="op(event)" onclick="f('5')" value="5">
             <input type="button" onkeydown="op(event)" onclick="f('6')" value="6">
             <input type="button" onkeydown="op(event)" onclick="f('*')" value="x">
-            <input type="button" onkeydown="op(event)" onclick="f('^0.5')" value="^0.5"><br><br>
+            <input type="button" onkeydown="op(event)" onclick="f('^0.5')" value="&radic;"><br><br>
     
             <input type="button" onkeydown="op(event)" onclick="f('1')" value="1">
             <input type="button" onkeydown="op(event)" onclick="f('2')" value="2">
@@ -130,8 +130,7 @@ calc.html
 ```
 
 ## OUTPUT:
-![Alt text](<Screenshot 2023-12-20 080305.png>)
-![Alt text](<Screenshot 2023-12-20 080316.png>)
-
+![Alt text](cal1.png)
+![Alt text](cal2.png)
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
